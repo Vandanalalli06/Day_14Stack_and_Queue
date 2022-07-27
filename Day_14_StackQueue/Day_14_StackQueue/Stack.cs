@@ -21,6 +21,11 @@ namespace Day14_StacksAndQueues
         {
             list.Display();
         }
+
+        internal void IsEmpty()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
