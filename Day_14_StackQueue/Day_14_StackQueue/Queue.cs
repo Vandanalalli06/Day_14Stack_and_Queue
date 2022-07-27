@@ -22,6 +22,11 @@ namespace Day_14_StackQueue
         {
             base.Display();
         }
+
+        internal void Dequeue()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

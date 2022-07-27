@@ -27,7 +27,19 @@ namespace Day14_StacksAndQueues
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
         }
-
+        public void Remove()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("\nQueue is empty, Deletion is not possible");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("\nValue popped is {0} ", this.head.data);
+                head = head.next;
+            }
+        }
         internal void Display()
         {
             Node temp = this.head;
